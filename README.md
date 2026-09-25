@@ -19,4 +19,5 @@ python src/main.py
 • Dependencias: request, dotenv
 • Autor: Jorge Alejandro Castro Amaro
 
-Estado
+•Estado
+•Colaboracion 
