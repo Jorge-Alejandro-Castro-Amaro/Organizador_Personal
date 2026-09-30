@@ -1,0 +1,51 @@
+1. Diferencia entre repositorio local y remoto
+Local: está en tu computadora, donde editas y pruebas el código.
+
+Remoto: está en un servidor (ej. GitHub), donde compartes el proyecto con otros.
+
+2. Diferencia entre commit y push
+Commit: guarda cambios en tu repositorio local (como un “checkpoint”).
+
+Push: envía esos commits al repositorio remoto (GitHub).
+
+3. ¿Para qué sirve .gitignore?
+Es un archivo que indica a Git qué archivos o carpetas no deben rastrearse ni subirse al repositorio (ej. archivos temporales, configuraciones locales).
+
+4. ¿Por qué .venv no se almacena normalmente en GitHub?
+Porque es un entorno virtual con dependencias específicas de tu máquina.
+
+No es necesario subirlo: basta con compartir requirements.txt para que otros lo reconstruyan.
+
+5. ¿Para qué sirve requirements.txt?
+Lista las librerías y versiones necesarias para el proyecto.
+
+Permite que otros instalen las mismas dependencias con:
+
+bash
+pip install -r requirements.txt
+6. Diferencia entre fork y clone
+Fork: copia un repositorio remoto a tu cuenta de GitHub (para colaborar o experimentar).
+
+Clone: copia un repositorio remoto a tu computadora.
+
+7. ¿Por qué conviene crear una rama antes de modificar el proyecto?
+Para trabajar aislado sin afectar la rama principal.
+
+Permite probar cambios y luego decidir si se integran.
+
+8. ¿Qué función cumple un Pull Request?
+Es la solicitud para fusionar tus cambios en la rama principal.
+
+Sirve para revisión, discusión y aprobación antes del merge.
+
+9. ¿Qué se revisa antes de realizar un merge?
+Que no haya conflictos con la rama base.
+
+Que el código cumpla estándares, pase pruebas y tenga buena documentación.
+
+Que los cambios sean útiles y correctos.
+
+10. ¿Por qué, después del merge en GitHub, se utiliza git pull en el repositorio local?
+Porque tu copia local debe sincronizarse con la rama remota.
+
+El git pull trae los cambios fusionados en GitHub a tu máquina.
